@@ -135,9 +135,11 @@
 /*////////////////////////////////////////////////////////////////////////*/
 .card{
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 .card:hover{
     border: 1px solid rgb(126, 126, 247);
+    transform: translateY(-5px);
 }
 .card .cardImg{
     background-color:  rgb(196, 194, 194);;
